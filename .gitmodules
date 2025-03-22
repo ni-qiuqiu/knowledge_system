@@ -1,0 +1,6 @@
+[submodule "thirdparty/llama"]
+	path = thirdparty/llama
+	url = https://github.com/ggml-org/llama.cpp.git
+[submodule "thirdparty/cppjieba"]
+	path = thirdparty/cppjieba
+	url = https://github.com/yanyiwu/cppjieba.git
