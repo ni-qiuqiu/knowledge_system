@@ -1,0 +1,84 @@
+{
+    "logging": {
+        "level": "info",
+        "file": "logs/llama_chat.log",
+        "console_level": "info",
+        "max_size": 10485760,
+        "max_files": 5,
+        "color_output": true
+    },
+    "models": {
+        "directory": "/media/qiu/新加卷/Ollama/DeepSeek_Mod",
+        "default": "/media/qiu/新加卷/Ollama/DeepSeek_Mod/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+        "available": [
+            "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf"
+        ],
+        "name_map": {
+            "alpaca-13b": "models/chinese-alpaca-2-13b.gguf",
+            "alpaca-7b": "models/chinese-alpaca-2-7b.gguf",
+            "llama-7b": "models/chinese-llama-2-7b.gguf"
+        }
+    },
+    "generation": {
+        "context_size": 4096,
+        "threads": 8,
+        "gpu_layers": 32,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "top_k": 40,
+        "repeat_penalty": 1.1,
+        "max_tokens": 2048,
+        "stream_output": true,
+        "stop_sequences": [
+            "\n\n\n",
+            "用户>",
+            "User:"
+        ],
+        "system_prompt": "你是一个有用的中文AI助手，请简洁、准确地回答问题。"
+    },
+    "app": {
+        "history_dir": "history",
+        "save_history": true,
+        "max_history_files": 100,
+        "auto_save_interval": 300,
+        "welcome_message": "欢迎使用LLama聊天应用！输入'exit'或'quit'退出。",
+        "prompt_prefix": "用户> ",
+        "response_prefix": "助手> ",
+        "locale": "zh_CN.UTF-8"
+    },
+    "advanced": {
+        "kv_cache_type": "auto",
+        "batch_size": 512,
+        "chunk_size": 256,
+        "dynamic_prompt_handling": true,
+        "enable_function_calling": false,
+        "function_calling_format": "json",
+        "memory_limit_mb": 0,
+        "rope_freq_base": 10000.0,
+        "rope_freq_scale": 1.0
+    },
+    "server": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 8080,
+        "cors_origins": ["*"],
+        "auth_enabled": false,
+        "auth_token": "",
+        "request_timeout": 60,
+        "max_request_tokens": 4096
+    },
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "database": "knowledge_base",
+        "charset": "utf8mb4",
+        "connect_timeout": 10,
+        "read_timeout": 30,
+        "write_timeout": 30,
+        "max_connections": 10,
+        "auto_reconnect": true,
+        "connection_string": ""
+    }
+} 

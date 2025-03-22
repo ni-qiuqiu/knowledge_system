@@ -1,0 +1,440 @@
+[
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/qiu/桌面/LLama_Chat/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -fopenmp -o CMakeFiles/kb_system.dir/src/main.cpp.o -c /home/qiu/桌面/LLama_Chat/src/main.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/main.cpp",
+  "output": "CMakeFiles/kb_system.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/usr/include/eigen3 -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/config_test.dir/tests/config_test.cpp.o -c /home/qiu/桌面/LLama_Chat/tests/config_test.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/tests/config_test.cpp",
+  "output": "CMakeFiles/config_test.dir/tests/config_test.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/gcc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include -g -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml.c",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml.c",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/gcc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include -g -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-alloc.c",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-alloc.c",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-backend.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-backend.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-opt.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-opt.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-threading.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-threading.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/gcc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include -g -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-quants.c",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-quants.c",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/gguf.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/gguf.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/gcc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include -g -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu.c",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/gcc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include -g -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-quants.c",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-quants.c",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-traits.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/ggml-cpu-traits.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/amx/amx.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/.. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/ggml/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GLIBCXX_ASSERTIONS -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-backend-reg.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/ggml-backend-reg.cpp",
+  "output": "llama/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-adapter.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-adapter.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-adapter.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-arch.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-arch.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-arch.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-batch.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-batch.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-batch.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-chat.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-chat.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-chat.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-context.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-context.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-context.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-context.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-grammar.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-grammar.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-grammar.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-graph.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-graph.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-graph.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-hparams.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-hparams.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-hparams.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-impl.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-impl.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-impl.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-io.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-io.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-io.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-io.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-kv-cache.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-kv-cache.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-memory.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-memory.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-memory.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-mmap.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-mmap.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-mmap.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-model-loader.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-model-loader.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-model.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-model.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-model.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-quant.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-quant.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-quant.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-sampling.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-sampling.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-sampling.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-vocab.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/llama-vocab.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/llama-vocab.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/unicode-data.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/unicode-data.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/unicode-data.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/llama/src",
+  "command": "/usr/bin/g++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/. -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/../common -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/src/../include  -Wall -Wextra -g -g -O0 -std=c++23 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode.cpp.o -c /home/qiu/桌面/LLama_Chat/thirdparty/llama/src/unicode.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/thirdparty/llama/src/unicode.cpp",
+  "output": "llama/src/CMakeFiles/llama.dir/unicode.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/common",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_common.dir/config.cpp.o -c /home/qiu/桌面/LLama_Chat/src/common/config.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/common/config.cpp",
+  "output": "src/common/CMakeFiles/kb_common.dir/config.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/common",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_common.dir/logging.cpp.o -c /home/qiu/桌面/LLama_Chat/src/common/logging.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/common/logging.cpp",
+  "output": "src/common/CMakeFiles/kb_common.dir/logging.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/common",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_common.dir/utils.cpp.o -c /home/qiu/桌面/LLama_Chat/src/common/utils.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/common/utils.cpp",
+  "output": "src/common/CMakeFiles/kb_common.dir/utils.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/preprocessor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_preprocessor.dir/document_loader.cpp.o -c /home/qiu/桌面/LLama_Chat/src/preprocessor/document_loader.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/preprocessor/document_loader.cpp",
+  "output": "src/preprocessor/CMakeFiles/kb_preprocessor.dir/document_loader.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/preprocessor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_preprocessor.dir/text_cleaner.cpp.o -c /home/qiu/桌面/LLama_Chat/src/preprocessor/text_cleaner.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/preprocessor/text_cleaner.cpp",
+  "output": "src/preprocessor/CMakeFiles/kb_preprocessor.dir/text_cleaner.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/preprocessor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_preprocessor.dir/chinese_tokenizer.cpp.o -c /home/qiu/桌面/LLama_Chat/src/preprocessor/chinese_tokenizer.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/preprocessor/chinese_tokenizer.cpp",
+  "output": "src/preprocessor/CMakeFiles/kb_preprocessor.dir/chinese_tokenizer.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/preprocessor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_preprocessor.dir/text_splitter.cpp.o -c /home/qiu/桌面/LLama_Chat/src/preprocessor/text_splitter.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/preprocessor/text_splitter.cpp",
+  "output": "src/preprocessor/CMakeFiles/kb_preprocessor.dir/text_splitter.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/preprocessor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_preprocessor.dir/metadata_extractor.cpp.o -c /home/qiu/桌面/LLama_Chat/src/preprocessor/metadata_extractor.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/preprocessor/metadata_extractor.cpp",
+  "output": "src/preprocessor/CMakeFiles/kb_preprocessor.dir/metadata_extractor.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/preprocessor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_preprocessor.dir/preprocessing_pipeline.cpp.o -c /home/qiu/桌面/LLama_Chat/src/preprocessor/preprocessing_pipeline.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/preprocessor/preprocessing_pipeline.cpp",
+  "output": "src/preprocessor/CMakeFiles/kb_preprocessor.dir/preprocessing_pipeline.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/vectorizer",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_vectorizer.dir/vectorizer.cpp.o -c /home/qiu/桌面/LLama_Chat/src/vectorizer/vectorizer.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/vectorizer/vectorizer.cpp",
+  "output": "src/vectorizer/CMakeFiles/kb_vectorizer.dir/vectorizer.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/vectorizer",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_vectorizer.dir/tfidf_vectorizer.cpp.o -c /home/qiu/桌面/LLama_Chat/src/vectorizer/tfidf_vectorizer.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/vectorizer/tfidf_vectorizer.cpp",
+  "output": "src/vectorizer/CMakeFiles/kb_vectorizer.dir/tfidf_vectorizer.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/knowledge",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_knowledge.dir/entity.cpp.o -c /home/qiu/桌面/LLama_Chat/src/knowledge/entity.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/knowledge/entity.cpp",
+  "output": "src/knowledge/CMakeFiles/kb_knowledge.dir/entity.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/knowledge",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_knowledge.dir/relation.cpp.o -c /home/qiu/桌面/LLama_Chat/src/knowledge/relation.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/knowledge/relation.cpp",
+  "output": "src/knowledge/CMakeFiles/kb_knowledge.dir/relation.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/knowledge",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_knowledge.dir/triple.cpp.o -c /home/qiu/桌面/LLama_Chat/src/knowledge/triple.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/knowledge/triple.cpp",
+  "output": "src/knowledge/CMakeFiles/kb_knowledge.dir/triple.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/knowledge",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_knowledge.dir/knowledge_graph.cpp.o -c /home/qiu/桌面/LLama_Chat/src/knowledge/knowledge_graph.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/knowledge/knowledge_graph.cpp",
+  "output": "src/knowledge/CMakeFiles/kb_knowledge.dir/knowledge_graph.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/extractor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/extractor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_extractor.dir/extractor_manager.cpp.o -c /home/qiu/桌面/LLama_Chat/src/extractor/extractor_manager.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/extractor/extractor_manager.cpp",
+  "output": "src/extractor/CMakeFiles/kb_extractor.dir/extractor_manager.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/extractor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/extractor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_extractor.dir/rule_based_extractor.cpp.o -c /home/qiu/桌面/LLama_Chat/src/extractor/rule_based_extractor.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/extractor/rule_based_extractor.cpp",
+  "output": "src/extractor/CMakeFiles/kb_extractor.dir/rule_based_extractor.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/extractor",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/extractor/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/deps/limonp/include -I/home/qiu/桌面/LLama_Chat/thirdparty/cppjieba/include -I/home/qiu/桌面/LLama_Chat/src/preprocessor/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_extractor.dir/ml_extractor.cpp.o -c /home/qiu/桌面/LLama_Chat/src/extractor/ml_extractor.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/extractor/ml_extractor.cpp",
+  "output": "src/extractor/CMakeFiles/kb_extractor.dir/ml_extractor.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_storage.dir/storage_manager.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/storage_manager.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/storage_manager.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/storage_manager.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -I/usr/include/mysql -o CMakeFiles/kb_storage.dir/mysql_storage.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/mysql_storage.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/mysql_storage.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/mysql_storage.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_storage.dir/storage_factory.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/storage_factory.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/storage_factory.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/storage_factory.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_storage.dir/mysql_connection_pool.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/mysql_connection_pool.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/mysql_connection_pool.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/mysql_connection_pool.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_storage.dir/storage_cache.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/storage_cache.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/storage_cache.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/storage_cache.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_storage.dir/batch_operations.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/batch_operations.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/batch_operations.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/batch_operations.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/storage",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -Wall -Wextra -o CMakeFiles/kb_storage.dir/version_control.cpp.o -c /home/qiu/桌面/LLama_Chat/src/storage/version_control.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/storage/version_control.cpp",
+  "output": "src/storage/CMakeFiles/kb_storage.dir/version_control.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/engine",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_engine.dir/model_interface.cpp.o -c /home/qiu/桌面/LLama_Chat/src/engine/model_interface.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/engine/model_interface.cpp",
+  "output": "src/engine/CMakeFiles/kb_engine.dir/model_interface.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/engine",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_engine.dir/llama_model.cpp.o -c /home/qiu/桌面/LLama_Chat/src/engine/llama_model.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/engine/llama_model.cpp",
+  "output": "src/engine/CMakeFiles/kb_engine.dir/llama_model.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/engine",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_engine.dir/engine_integration.cpp.o -c /home/qiu/桌面/LLama_Chat/src/engine/engine_integration.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/engine/engine_integration.cpp",
+  "output": "src/engine/CMakeFiles/kb_engine.dir/engine_integration.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/query",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_query.dir/query_parser.cpp.o -c /home/qiu/桌面/LLama_Chat/src/query/query_parser.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/query/query_parser.cpp",
+  "output": "src/query/CMakeFiles/kb_query.dir/query_parser.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/query",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_query.dir/graph_searcher.cpp.o -c /home/qiu/桌面/LLama_Chat/src/query/graph_searcher.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/query/graph_searcher.cpp",
+  "output": "src/query/CMakeFiles/kb_query.dir/graph_searcher.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/query",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_query.dir/answer_generator.cpp.o -c /home/qiu/桌面/LLama_Chat/src/query/answer_generator.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/query/answer_generator.cpp",
+  "output": "src/query/CMakeFiles/kb_query.dir/answer_generator.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/query",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_query.dir/dialogue_manager.cpp.o -c /home/qiu/桌面/LLama_Chat/src/query/dialogue_manager.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/query/dialogue_manager.cpp",
+  "output": "src/query/CMakeFiles/kb_query.dir/dialogue_manager.cpp.o"
+},
+{
+  "directory": "/home/qiu/桌面/LLama_Chat/build/src/query",
+  "command": "/usr/bin/g++  -I/home/qiu/桌面/LLama_Chat/../../include -I/home/qiu/桌面/LLama_Chat/src/common/../../include -I/home/qiu/桌面/LLama_Chat/src/knowledge/../../include -I/home/qiu/桌面/LLama_Chat/src/vectorizer/../../include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/include -I/home/qiu/桌面/LLama_Chat/thirdparty/llama/ggml/include -I/home/qiu/桌面/LLama_Chat/src/engine/../../include -I/home/qiu/桌面/LLama_Chat/src/storage/../../include -I/usr/include/mysql -isystem /usr/include/eigen3  -Wall -Wextra -g -g -O0 -std=c++23 -o CMakeFiles/kb_query.dir/query_manager.cpp.o -c /home/qiu/桌面/LLama_Chat/src/query/query_manager.cpp",
+  "file": "/home/qiu/桌面/LLama_Chat/src/query/query_manager.cpp",
+  "output": "src/query/CMakeFiles/kb_query.dir/query_manager.cpp.o"
+}
+]

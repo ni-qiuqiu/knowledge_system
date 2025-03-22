@@ -1,0 +1,12 @@
+# 添加子目录
+add_subdirectory(common)
+add_subdirectory(preprocessor)
+add_subdirectory(vectorizer)
+add_subdirectory(knowledge)
+add_subdirectory(extractor)
+add_subdirectory(storage)
+add_subdirectory(engine)
+add_subdirectory(query)
+# add_subdirectory(optimization)
+# add_subdirectory(parallel)
+# add_subdirectory(api)
